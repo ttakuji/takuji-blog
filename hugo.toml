@@ -1,0 +1,11 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+
+theme = "hugo-theme-codex"
+description = "Teste"
+[params]
+  twitter = "https://twitter.com/leportella"
+  github = "https://github.com/ttakuji"
+  linkedin = "https://www.linkedin.com/in/yohan-takai/"
+  
