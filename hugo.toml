@@ -1,16 +1,42 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://ttakuji.netlify.app/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 
 theme = "hugo-theme-codex"
-description = "Teste"
+description = "Blog and Portifolio"
 [params]
-  twitter = "https://twitter.com/ttakuji"
   github = "https://github.com/ttakuji"
   linkedin = "https://www.linkedin.com/in/yohan-takai/"
 
-[[menu.main]]
-  identifier = "blog"
-  name = "blog"
-  title = "Blog"
-  url = "/blog"
+[languages]
+  [languages.en]
+    weight = 1
+    contentDir = "content/en"
+    languageName = "English"
+[[languages.en.menu.main]]
+    identifier = "blog"
+    name = "blog"
+    title = "Blog"
+    url = "/blog"
+
+    [[languages.en.menu.main]]
+    weight = 2
+    identifier = "pt"
+    name = "🇧🇷 Pt"
+    title = "Português"
+    url = "/pt-br"
+  [languages.pt-br]
+    weight = 2
+    contentDir = "content/pt-br"
+    languageName = "Português"
+[[languages.pt-br.menu.main]]
+     identifier = "blog"
+     name = "meu blog"
+     title = "Blog"
+     url = "/pt-br/blog"
+  [[languages.pt-br.menu.main]]
+    weight = 2
+    identifier = "en"
+    name = "🇮🇪 En"
+    title = "English"
+    url = "/"

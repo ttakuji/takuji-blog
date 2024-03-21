@@ -1,5 +1,6 @@
 baseURL = 'https://ttakuji.netlify.app/'
 languageCode = 'en-us'
+title = 'My New Hugo Site'
 
 theme = "hugo-theme-codex"
 description = "Blog and Portifolio"
@@ -7,8 +8,22 @@ description = "Blog and Portifolio"
   github = "https://github.com/ttakuji"
   linkedin = "https://www.linkedin.com/in/yohan-takai/"
 
-[[menu.main]]
-  identifier = "blog"
-  name = "blog"
-  title = "Blog"
-  url = "/blog"
+[languages]
+  [languages.en]
+    weight = 1
+    contentDir = "content/en"
+    languageName = "English"
+[[languages.en.menu.main]]
+     identifier = "blog"
+     name = "blog"
+     title = "Blog"
+     url = "/blog"
+  [languages.pt-br]
+    weight = 2
+    contentDir = "content/pt-br"
+    languageName = "Português"
+[[languages.pt-br.menu.main]]
+     identifier = "blog"
+     name = "meu blog"
+     title = "Blog"
+     url = "/pt-br/blog

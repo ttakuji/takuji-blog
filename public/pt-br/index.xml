@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://localhost:1313/pt-br/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Thu, 21 Mar 2024 15:00:56 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/pt-br/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Meu primeiro post</title>
+      <link>http://localhost:1313/pt-br/blog/my-first-post/</link>
+      <pubDate>Thu, 21 Mar 2024 15:00:56 -0300</pubDate>
+      <guid>http://localhost:1313/pt-br/blog/my-first-post/</guid>
+      <description>Este é meu primeiro post!</description>
+    </item>
+  </channel>
+</rss>

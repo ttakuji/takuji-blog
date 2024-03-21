@@ -5,28 +5,35 @@
     <link>http://localhost:1313/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 21 Mar 2024 14:06:00 -0300</lastBuildDate>
+    <language>en</language>
+    <lastBuildDate>Thu, 21 Mar 2024 15:01:17 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Project</title>
-      <link>http://localhost:1313/portifolio/my-first-project/</link>
-      <pubDate>Thu, 21 Mar 2024 14:06:00 -0300</pubDate>
-      <guid>http://localhost:1313/portifolio/my-first-project/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Thu, 21 Mar 2024 14:05:35 -0300</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <title>Meu Primeiro Post</title>
+      <link>http://localhost:1313/content/pt-br/blog/meu-primeiro-post/</link>
+      <pubDate>Thu, 21 Mar 2024 15:01:17 -0300</pubDate>
+      <guid>http://localhost:1313/content/pt-br/blog/meu-primeiro-post/</guid>
       <description></description>
     </item>
     <item>
       <title>My First Post</title>
       <link>http://localhost:1313/blog/my-first-post/</link>
-      <pubDate>Thu, 21 Mar 2024 14:02:10 -0300</pubDate>
+      <pubDate>Thu, 21 Mar 2024 15:00:56 -0300</pubDate>
       <guid>http://localhost:1313/blog/my-first-post/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Thu, 21 Mar 2024 14:38:43 -0300</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>My First Project</title>
+      <link>http://localhost:1313/portifolio/my-first-project/</link>
+      <pubDate>Thu, 21 Mar 2024 14:06:00 -0300</pubDate>
+      <guid>http://localhost:1313/portifolio/my-first-project/</guid>
       <description></description>
     </item>
   </channel>
