@@ -2,7 +2,7 @@ baseURL = 'https://ttakuji.netlify.app/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 
-theme = "hugo-theme-codex"
+theme = "archie"
 description = "Blog and Portifolio"
 [params]
   github = "https://github.com/ttakuji"
